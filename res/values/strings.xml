@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sorgmantel\'s App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="total">Your total is 0</string>
+    <string name="add">Add one</string>
+    <string name="sub">Subtract one</string>
+    <string name="editTextHint">Type a command</string>
+    <string name="TryCommand">Try Command</string>
+    <string name="Invalid">invalid</string>
+    <string name="textplay_title">TextPlay</string><string name="internaldata_title">InternalData</string><string name="sharedprefs_title">SharedPrefs</string><string name="opened_class_title">OpenedClass</string><string name="soundstuff_title">SoundStuff</string><string name="flipper_title">Flipper</string><string name="sqlex_title">SQLiteExample</string><string name="slider_title">Slider</string><string name="gfx_title">GFX</string><string name="gfxsurf_title">GFXSurface</string><string name="tabs_title">Tabs</string><string name="browser_title">Simple Browser</string><string name="data_title">Data</string><string name="email_title">Email</string><string name="camera_title">Camera</string>
+    <string name="mainactivity_title">MainActivity</string>
+    <string name="email">Email Address</string>
+    <string name="topic">Topic</string>
+    <string name="name">Name</string>
+    <string name="send_email">Send Email</string>
+
+</resources>

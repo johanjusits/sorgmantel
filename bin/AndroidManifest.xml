@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="se.johan.samuelsson"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <!-- Splash Screen Application -->
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sorg_launcer_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="se.johan.samuelsson.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Menu Screen Application -->
+        <activity
+            android:name="se.johan.samuelsson.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="se.johan.samuelsson.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- MainActivity Screen Application -->
+        <activity
+            android:name="se.johan.samuelsson.MainActivity"
+            android:label="@string/mainactivity_title" >
+            <intent-filter>
+                <action android:name="se.johan.samuelsson.MAINACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- TextPlay Screen Application -->
+        <activity
+            android:name="se.johan.samuelsson.TextPlay"
+            android:label="@string/textplay_title" >
+        </activity>
+        
+        <!-- Email Screen Application -->
+        <activity
+            android:name="se.johan.samuelsson.Email"
+            android:label="@string/email_title" >
+        </activity>
+        
+        <!-- Camera Screen Application -->
+        <activity
+            android:name="se.johan.samuelsson.Camera"
+            android:label="@string/camera_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <!-- Data Screen Application -->
+        <activity
+            android:name="se.johan.samuelsson.Data"
+            android:label="@string/data_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <!-- OpenedClass Screen Application -->
+        <activity
+            android:name="se.johan.samuelsson.OpenedClass"
+            android:label="@string/opened_class_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <!-- AboutUs Screen Application -->
+        <activity
+            android:name="se.johan.samuelsson.AboutUs"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="se.johan.samuelsson.ABOUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Preference Screen Application -->
+        <activity
+            android:name="se.johan.samuelsson.Prefs"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="se.johan.samuelsson.PREFS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <!-- GFX Screen Application -->
+        <activity
+            android:name="se.johan.samuelsson.GFX"
+            android:label="@string/gfx_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <!-- GFXSurface Screen Application -->
+        <activity
+            android:name="se.johan.samuelsson.GFXSurface"
+            android:label="@string/gfxsurf_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <!-- SoundStuff Screen Application -->
+        <activity
+            android:name="se.johan.samuelsson.SoundStuff"
+            android:label="@string/soundstuff_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <!-- Slider Screen Application -->
+        <activity
+            android:name="se.johan.samuelsson.Slider"
+            android:label="@string/slider_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+         <!-- Tabs Screen Application -->
+        <activity
+            android:name="se.johan.samuelsson.Tabs"
+            android:label="@string/tabs_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <!-- SimpleBrowser Screen Application -->
+        <activity
+            android:name="se.johan.samuelsson.SimpleBrowser"
+            android:label="@string/browser_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <!-- Flipper Screen Application -->
+        <activity
+            android:name="se.johan.samuelsson.Flipper"
+            android:label="@string/flipper_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <!-- Sharedprefs Screen Application -->
+        <activity
+            android:name="se.johan.samuelsson.SharedPrefs"
+            android:label="@string/sharedprefs_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <!-- InternalData Screen Application -->
+        <activity
+            android:name="se.johan.samuelsson.InternalData"
+            android:label="@string/internaldata_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <!-- SQLiteExample Screen Application -->
+        <activity
+            android:name="se.johan.samuelsson.SQLiteExample"
+            android:label="@string/sqlex_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <!-- SQLView Screen Application -->
+        <activity
+            android:name="se.johan.samuelsson.SQLView"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="se.johan.samuelsson.SQLVIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>
